@@ -1,0 +1,201 @@
+html, body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+
+.dark-bg-color{
+  background-color: rgb(97, 95, 95);
+}
+
+.blog-container{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 2em;
+
+  justify-content: space-between;
+
+  place-items: center;
+  padding: 2em;
+}
+
+.blog-card{
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
+
+.card-img{
+  border-radius: 1em;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.navigation-element{
+  display: none;
+}
+
+.about-picture{
+  max-height: 250px;
+}
+
+/* Formatting SVG's for wave effects */
+
+.spacer{
+  aspect-ratio: 1080/200;
+  width: 100%;
+  height: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#homepage-icon{
+  width: 500px;
+}
+
+.wave-spacer{
+  aspect-ratio: 1080/230;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer-wave{
+  background-image: url("components/assets/layered-waves.svg");
+}
+
+.layer-peak{
+  background-image: url("components/assets/layered-peaks.svg");
+}
+
+.about-peak{
+  background-image: url("components/assets/layered-waves-about.svg");
+}
+
+.about-reverse{
+  background-image: url("components/assets/layered-waves-about.svg");
+  transform: rotate(180deg);
+}
+
+.stacked-waves{
+  background-image: url("components/assets/stacked-waves.svg");
+}
+
+.wave{
+  background-image: url("components/assets/wave.svg");
+}
+
+#first-svg{
+  animation: scrollLogoOnCanvas 6s infinite;
+}
+
+#second-svg{
+  animation: scrollLogoOnCanvas 6s 2s infinite;
+  opacity: 0;
+}
+
+#third-svg{
+  animation: scrollLogoOnCanvas 6s 4s infinite;
+  opacity: 0;
+}
+
+.p-text{
+  width: 45%;
+}
+
+.padding-text{
+  padding: 5em;
+}
+
+.fade-in-title{
+  animation: fadeTitle 1s;
+}
+
+@keyframes fadeTitle {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes scrollLogoOnCanvas {
+  0%{
+    opacity: 0;
+  }
+  33%{
+    opacity: 1;
+    transform: translateX(50%);
+  }
+  67%{
+    opacity: 0;
+  }
+  75%{
+    transform: translateX(300%);
+  }
+  to{
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 900px) {
+  #homepage-icon {
+      width: 20em;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(0%,-200%);
+  }
+}
+
+@media (max-width: 912px){
+  #homepage-icon {
+      width: 20em;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(0%,-200%);
+  }
+}
+
+@media (max-width: 830px) {
+  #homepage-icon {
+      width: 25em;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(0%,-150%);
+  }
+}
+
+@media (max-width: 768px) {
+  #homepage-icon {
+      width: 25em;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(0%,-135%);
+  }
+}
+
+@media (max-width: 767px) {
+  #homepage-icon {
+      display: none;
+  }
+}
+
+.Typewriter{
+  margin-left: .25em;
+}

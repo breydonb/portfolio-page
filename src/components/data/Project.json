@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Discord Music Bot with Java",
+        "desc": "This is a simple discord bot that allows users to request songs on YouTube and Spotify to be played in my local discord server.",
+        "link": "https://github.com/breydonb/breydonb/tree/master/discordBot/beckybot",
+        "img1": "img/programming-logos/java.svg",
+        "img2": "img/programming-logos/discord-icon.svg",
+        "alt": "Thumbnail of discord bot source code"
+
+    },
+    {
+        "title": "Interfaces and Abstract Classes in Java",
+        "desc": "In my object-oriented programming class, we covered Interfaces and Abstract Classes to learn about polymorphism.",
+        "link": "https://github.com/breydonb/breydonb/tree/master/java/lab6",
+        "img1": "img/programming-logos/java.svg",
+        "img2": "img/programming-logos/git.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    },
+    {
+        "title": "Compound Interest Calculator",
+        "desc": "For my final project, I decided to make a GUI Compound Interest Calculator. This program uses the Java AWT framework and allows users to customize principle, interest rate, and monthly contributions.",
+        "link": "https://github.com/breydonb/breydonb/blob/master/java/FinalProject.java",
+        "img1": "img/programming-logos/java.svg",
+        "img2": "img/programming-logos/git.svg",
+        "alt": "Thumbnail of Compound Interest Calculator"
+    },
+    {
+        "title": "Trip Collage iOS App",
+        "desc": "I made this application during my freshman year of college by referencing Apple's Documentation. This uses Apple Map's API to show where the events where my friends and I have went",
+        "link": "https://github.com/breydonb/breydonb/tree/master/Swift/Testing%20SwiftUI",
+        "img1": "img/programming-logos/swift.svg",
+        "img2": "img/programming-logos/git.svg",
+        "alt": "Thumbnail of Trip Collage iOS App"
+    }
+    ,
+    {
+        "title": "Leetcode Algorithm Techniques in Python",
+        "desc": "Preparing for interviews for internships in software development, I started to work on various algorithms. These are simple examples of various sorting and searching algorithms.",
+        "link": "https://github.com/breydonb/breydonb/tree/master/Python/leetcode",
+        "img1": "img/programming-logos/python.svg",
+        "img2": "img/programming-logos/leetcode.svg",
+        "alt": "Thumbnail of Leetcode Algorithm Techniques in Python"
+    }
+    ,
+    {
+        "title": "MySQL Final Project",
+        "desc": "We took the approach as a Database Administrator at a startup called Amazon and had to create the database for them. This includes a Sales table, Products table, and Customers table. ",
+        "link": "https://github.com/breydonb/breydonb/tree/master/MySQL/FinalProject",
+        "img1": "img/programming-logos/mysql.png",
+        "img2": "img/programming-logos/python.svg",
+        "alt": "Thumbnail of Database Administration MySQL Final Project"
+    }
+]

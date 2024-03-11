@@ -1,0 +1,42 @@
+[
+    {
+        "title":"ReactJS",
+        "img":"img/programming-logos/react.svg",
+        "alt":"ReactJS Logo"
+    },
+    {
+        "title":"HTML/CSS",
+        "img":"img/programming-logos/html.svg",
+        "alt":"HTML Logo"
+    },
+    {
+        "title":"Python",
+        "img":"img/programming-logos/python.svg",
+        "alt":"Python Logo"
+    },
+    {
+        "title":"Java",
+        "img":"img/programming-logos/java.svg",
+        "alt":"Java Logo"
+    },
+    {
+        "title":"C++",
+        "img":"img/programming-logos/c.svg",
+        "alt":"C++ Logo"
+    },
+    {
+        "title":"Swift UI",
+        "img":"img/programming-logos/swift.svg",
+        "alt":"Swift Logo"
+    },
+    {
+        "title":"MySQL",
+        "img":"img/programming-logos/mysql.png",
+        "alt":"MySQL Logo"
+    },
+    {
+        "title":"Git",
+        "img":"img/programming-logos/git.svg",
+        "alt":"Git Logo"
+    }
+]

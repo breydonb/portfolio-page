@@ -1,0 +1,17 @@
+[
+    {
+        "img": "img/my-friends.jpg",
+        "alt":"My friends and me on campus",
+        "desc": "My friends and me (left) hanging out and having fun"
+    },
+    {
+        "img": "img/yellowstone.jpg",
+        "alt":"Yellowstone trip with my dad and I",
+        "desc": "My Dad and I (left) at Yellowstone. This is definitely one of my favorite trips"
+    },
+    {
+        "img": "img/cardinals.jpg",
+        "alt":"Cardinals game with my friends",
+        "desc": "Cheering on my favorite baseball team"
+    }
+]

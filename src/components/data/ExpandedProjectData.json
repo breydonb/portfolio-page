@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "isFavoite": false,
+        "title": "Discord Music Bot with Java",
+        "desc": "This is a simple discord bot that allows users to request songs on YouTube to be played in my local discord server",
+        "link": "https://github.com/breydonb/breydonb/tree/master/discordBot/beckybot",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of discord bot source code"
+
+    },
+    {
+        "id": 2,
+        "isFavoite": false,
+        "title": "Interfaces and Abstract Classes in Java",
+        "desc": "This is a simple discord bot that allows users to request songs on YouTube to be played in my local discord server",
+        "link": "https://github.com/breydonb/breydonb/tree/master/java/lab6",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    },
+    {
+        "id": 3,
+        "isFavoite": false,
+        "title": "Compound Interest Calculator",
+        "desc": "This is a simple discord bot that allows users to request songs on YouTube to be played in my local discord server",
+        "link": "https://github.com/breydonb/breydonb/blob/master/java/FinalProject.java",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    },
+    {
+        "id": 4,
+        "isFavoite": false,
+        "title": "Trip Collage iOS App",
+        "desc": "I made this application during my freshman year of college by referencing Apple's Documentation. This uses Apple Map's API to show where the events where my friends and I have went",
+        "link": "https://github.com/breydonb/breydonb/tree/master/Swift/Testing%20SwiftUI",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    }
+    ,
+    {
+        "id": 5,
+        "isFavoite": false,
+        "title": "Leetcode Algorithm Techniques in Python",
+        "desc": "Preparing for interviews for internships in software development, I started to work on various algorithms. These algorithms include various sorting algorithm",
+        "link": "https://github.com/breydonb/breydonb/tree/master/Python/leetcode",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    }
+    ,
+    {
+        "id": 6,
+        "isFavoite": false,
+        "title": "MySQL Final Project",
+        "desc": "We took the approach as a Database Administrator at a startup called Amazon and had to create the database for them. This includes a Sales table, Products table, and Customers table. ",
+        "link": "https://github.com/breydonb/breydonb/tree/master/MySQL/FinalProject",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    },
+    {
+        "id": 7,
+        "isFavoite": false,
+        "title": "Introduction to Data Structures in Java",
+        "desc": "I made this application during my freshman year of college by referencing Apple's Documentation. This uses Apple Map's API to show where the events where my friends and I have went",
+        "link": "https://github.com/breydonb/breydonb/tree/master/java/lab8",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 8 code from object oriented programming"
+    }
+    ,
+    {
+        "id": 8,
+        "isFavoite": false,
+        "title": "Advanced Image Manipulation in Python",
+        "desc": "Preparing for interviews for internships in software development, I started to work on various algorithms. These algorithms include various sorting algorithm",
+        "link": "https://github.com/breydonb/breydonb/tree/master/Python/advancedImageManipulation",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    }
+    ,
+    {
+        "id": 9,
+        "isFavoite": false,
+        "title": "MySQL Final Project",
+        "desc": "We took the approach as a Database Administrator at a startup called Amazon and had to create the database for them. This includes a Sales table, Products table, and Customers table. ",
+        "link": "https://github.com/breydonb/breydonb/tree/master/MySQL/FinalProject",
+        "img": "img/ph.svg",
+        "alt": "Thumbnail of lab 6 code from object oriented"
+    }
+]
