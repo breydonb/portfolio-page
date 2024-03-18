@@ -1,25 +1,16 @@
 import './css/LandingPage.css'
-// import 'bootstrap/dist/css/bootstrap.css';
-import Typewriter from 'typewriter-effect';
-import { Row, Container, Col, Image } from 'react-bootstrap';
-import styled, { keyframes } from "styled-components";
-import { bounce, fadeIn, rotateOut} from "react-animations";
-
-
-import Projects from './projects/Projects';
-import Skills from './skills/skills';
-
+import Projects from './projects/Projects.jsx';
+import Skills from './skills/skills.jsx';
 import { useThemeContext } from '../contexts/ThemeContext.tsx';
 import { Vector3 } from 'three';
-import { useState } from 'react';
+import React from 'react';
 
 // <div className='spacer layer-wave'></div>
-const Bounce = styled.div`animation: 2s ${keyframes `${bounce}`} `;
-const FadeIn = styled.div`animation: 2s ${keyframes `${fadeIn}`}`
-const LeftFadeIn = styled.div`animation: 2s ${keyframes `${fadeIn}`}`
-
+// const Bounce = styled.div`animation: 2s ${keyframes `${bounce}`} `;
+// const FadeIn = styled.div`animation: 2s ${keyframes `${fadeIn}`}`
+// const LeftFadeIn = styled.div`animation: 2s ${keyframes `${fadeIn}`}`
+/*
 function LandingPage(){
-    
     return(
         <>
             <Container className="d-flex justify-content-center p-4">
@@ -66,11 +57,12 @@ function LandingPage(){
         </>
     )
 }
+*/
 
 export default function LandingPageImproved (){
-    const { theme, UIErrorEvent } = useThemeContext();
+    const { theme } : any = useThemeContext();
     return(
-        <div className = "canvas-container" id = { theme ? 'dark' : 'light' }>
+        <section id = { theme ? 'dark' : 'light' }>
             {/* <Container className='outer'>
                 <Container className='d-flex justify-content-around p-4'>
                     <img src='img/chat-bubble-top-left.svg' className='left-chat-bubble'/>
@@ -79,21 +71,17 @@ export default function LandingPageImproved (){
                 <img src='img/diverse_people_boy_glasses_skin3.svg' id='profile'/>
             </Container> */}
             <LandingPageCanvas /> 
-        </div>
+            <Projects />
+            <Skills />
+        </section>
     )
 }
 
-
-
 const LandingPageCanvas = () => {
-    const { BoxGeometry, RenderCanvas, RenderScene } = useThemeContext();
-    
+    const { BoxGeometry, RenderCanvas } : any = useThemeContext();
     return(
-        <RenderCanvas 
-            fov = '100'
-            position = { new Vector3(-5, 0, -5) }
-        >
-            <BoxGeometry color = {'#157ACF'} scale = {new Vector3(2, 1.5, 2)}/>
+        <RenderCanvas fov = '100' position = { new Vector3(0, 0, 1) }>
+            <BoxGeometry position = {new Vector3(1, 1, 1)} polygonSize = {[5, 5, 5]} />
         </RenderCanvas>
         )
         

@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 
 import { Route, Routes,BrowserRouter as Router, Navigate} from 'react-router-dom';
 
-import LandingPage from "./components/LandingPage";
+import LandingPage from "./components/LandingPage.tsx";
 import About from "./components/About"
 import Contact from "./components/Contact"
 import ProjectPage from "./components/projects/ProjectPage"

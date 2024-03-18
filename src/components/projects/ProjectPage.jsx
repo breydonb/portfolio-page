@@ -1,11 +1,14 @@
 import Data from '../data/ExpandedProjectData.json';
 import 'bootstrap/dist/css/bootstrap.css';
+import { useThemeContext } from '../../contexts/ThemeContext.tsx';
 import '../../App.css'
 import React from 'react';
 
+
 function ProjectPage() {
+    const { theme } = useThemeContext();
     return (
-        <div className="container p-4">
+        <section className="container p-4" id = { theme ? 'dark' : 'light' }>
             <h2 className='text-center'>My Projects</h2>
             <div className="row">
                 {Data.map(project =>{
@@ -23,7 +26,7 @@ function ProjectPage() {
                             )
                         })}
             </div>
-        </div>
+        </section>
     )
 }
 
